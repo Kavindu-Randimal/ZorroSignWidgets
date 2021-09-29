@@ -1,0 +1,505 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DF8683B6268194FE00C38517 /* DashboardWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFBA3270267DB1D200448357 /* DashboardWidget.swift */; };
+		DFBA3257267DB1B100448357 /* ZorroSignWidgetApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFBA3256267DB1B100448357 /* ZorroSignWidgetApp.swift */; };
+		DFBA3259267DB1B100448357 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFBA3258267DB1B100448357 /* ContentView.swift */; };
+		DFBA325B267DB1B300448357 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DFBA325A267DB1B300448357 /* Assets.xcassets */; };
+		DFBA325E267DB1B300448357 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DFBA325D267DB1B300448357 /* Preview Assets.xcassets */; };
+		DFBA326C267DB1D200448357 /* WidgetKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DFBA326B267DB1D200448357 /* WidgetKit.framework */; };
+		DFBA326E267DB1D200448357 /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DFBA326D267DB1D200448357 /* SwiftUI.framework */; };
+		DFBA3274267DB1D300448357 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DFBA3273267DB1D300448357 /* Assets.xcassets */; };
+		DFBA3276267DB1D300448357 /* DashboardWidget.intentdefinition in Sources */ = {isa = PBXBuildFile; fileRef = DFBA3272267DB1D200448357 /* DashboardWidget.intentdefinition */; };
+		DFBA3277267DB1D300448357 /* DashboardWidget.intentdefinition in Sources */ = {isa = PBXBuildFile; fileRef = DFBA3272267DB1D200448357 /* DashboardWidget.intentdefinition */; };
+		DFBA327A267DB1D300448357 /* DashboardWidgetExtension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = DFBA3269267DB1D200448357 /* DashboardWidgetExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DFBA3278267DB1D300448357 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DFBA324B267DB1B100448357 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DFBA3268267DB1D200448357;
+			remoteInfo = DashboardWidgetExtension;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		DFBA327E267DB1D300448357 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				DFBA327A267DB1D300448357 /* DashboardWidgetExtension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		DFBA3253267DB1B100448357 /* ZorroSignWidget.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZorroSignWidget.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DFBA3256267DB1B100448357 /* ZorroSignWidgetApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZorroSignWidgetApp.swift; sourceTree = "<group>"; };
+		DFBA3258267DB1B100448357 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		DFBA325A267DB1B300448357 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DFBA325D267DB1B300448357 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		DFBA325F267DB1B300448357 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DFBA3269267DB1D200448357 /* DashboardWidgetExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = DashboardWidgetExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		DFBA326B267DB1D200448357 /* WidgetKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WidgetKit.framework; path = System/Library/Frameworks/WidgetKit.framework; sourceTree = SDKROOT; };
+		DFBA326D267DB1D200448357 /* SwiftUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftUI.framework; path = System/Library/Frameworks/SwiftUI.framework; sourceTree = SDKROOT; };
+		DFBA3270267DB1D200448357 /* DashboardWidget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardWidget.swift; sourceTree = "<group>"; };
+		DFBA3272267DB1D200448357 /* DashboardWidget.intentdefinition */ = {isa = PBXFileReference; lastKnownFileType = file.intentdefinition; path = DashboardWidget.intentdefinition; sourceTree = "<group>"; };
+		DFBA3273267DB1D300448357 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DFBA3275267DB1D300448357 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DFBA3250267DB1B100448357 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DFBA3266267DB1D200448357 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DFBA326E267DB1D200448357 /* SwiftUI.framework in Frameworks */,
+				DFBA326C267DB1D200448357 /* WidgetKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DFBA324A267DB1B100448357 = {
+			isa = PBXGroup;
+			children = (
+				DFBA3255267DB1B100448357 /* ZorroSignWidget */,
+				DFBA326F267DB1D200448357 /* DashboardWidget */,
+				DFBA326A267DB1D200448357 /* Frameworks */,
+				DFBA3254267DB1B100448357 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DFBA3254267DB1B100448357 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DFBA3253267DB1B100448357 /* ZorroSignWidget.app */,
+				DFBA3269267DB1D200448357 /* DashboardWidgetExtension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DFBA3255267DB1B100448357 /* ZorroSignWidget */ = {
+			isa = PBXGroup;
+			children = (
+				DFBA3256267DB1B100448357 /* ZorroSignWidgetApp.swift */,
+				DFBA3258267DB1B100448357 /* ContentView.swift */,
+				DFBA325A267DB1B300448357 /* Assets.xcassets */,
+				DFBA325F267DB1B300448357 /* Info.plist */,
+				DFBA325C267DB1B300448357 /* Preview Content */,
+			);
+			path = ZorroSignWidget;
+			sourceTree = "<group>";
+		};
+		DFBA325C267DB1B300448357 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				DFBA325D267DB1B300448357 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		DFBA326A267DB1D200448357 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DFBA326B267DB1D200448357 /* WidgetKit.framework */,
+				DFBA326D267DB1D200448357 /* SwiftUI.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DFBA326F267DB1D200448357 /* DashboardWidget */ = {
+			isa = PBXGroup;
+			children = (
+				DFBA3270267DB1D200448357 /* DashboardWidget.swift */,
+				DFBA3272267DB1D200448357 /* DashboardWidget.intentdefinition */,
+				DFBA3273267DB1D300448357 /* Assets.xcassets */,
+				DFBA3275267DB1D300448357 /* Info.plist */,
+			);
+			path = DashboardWidget;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DFBA3252267DB1B100448357 /* ZorroSignWidget */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DFBA3262267DB1B300448357 /* Build configuration list for PBXNativeTarget "ZorroSignWidget" */;
+			buildPhases = (
+				DFBA324F267DB1B100448357 /* Sources */,
+				DFBA3250267DB1B100448357 /* Frameworks */,
+				DFBA3251267DB1B100448357 /* Resources */,
+				DFBA327E267DB1D300448357 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DFBA3279267DB1D300448357 /* PBXTargetDependency */,
+			);
+			name = ZorroSignWidget;
+			productName = ZorroSignWidget;
+			productReference = DFBA3253267DB1B100448357 /* ZorroSignWidget.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DFBA3268267DB1D200448357 /* DashboardWidgetExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DFBA327B267DB1D300448357 /* Build configuration list for PBXNativeTarget "DashboardWidgetExtension" */;
+			buildPhases = (
+				DFBA3265267DB1D200448357 /* Sources */,
+				DFBA3266267DB1D200448357 /* Frameworks */,
+				DFBA3267267DB1D200448357 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DashboardWidgetExtension;
+			productName = DashboardWidgetExtension;
+			productReference = DFBA3269267DB1D200448357 /* DashboardWidgetExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DFBA324B267DB1B100448357 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					DFBA3252267DB1B100448357 = {
+						CreatedOnToolsVersion = 12.5;
+					};
+					DFBA3268267DB1D200448357 = {
+						CreatedOnToolsVersion = 12.5;
+					};
+				};
+			};
+			buildConfigurationList = DFBA324E267DB1B100448357 /* Build configuration list for PBXProject "ZorroSignWidget" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DFBA324A267DB1B100448357;
+			productRefGroup = DFBA3254267DB1B100448357 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DFBA3252267DB1B100448357 /* ZorroSignWidget */,
+				DFBA3268267DB1D200448357 /* DashboardWidgetExtension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DFBA3251267DB1B100448357 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DFBA325E267DB1B300448357 /* Preview Assets.xcassets in Resources */,
+				DFBA325B267DB1B300448357 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DFBA3267267DB1D200448357 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DFBA3274267DB1D300448357 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DFBA324F267DB1B100448357 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DFBA3277267DB1D300448357 /* DashboardWidget.intentdefinition in Sources */,
+				DFBA3259267DB1B100448357 /* ContentView.swift in Sources */,
+				DFBA3257267DB1B100448357 /* ZorroSignWidgetApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DFBA3265267DB1D200448357 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF8683B6268194FE00C38517 /* DashboardWidget.swift in Sources */,
+				DFBA3276267DB1D300448357 /* DashboardWidget.intentdefinition in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DFBA3279267DB1D300448357 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DFBA3268267DB1D200448357 /* DashboardWidgetExtension */;
+			targetProxy = DFBA3278267DB1D300448357 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		DFBA3260267DB1B300448357 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DFBA3261267DB1B300448357 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DFBA3263267DB1B300448357 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"ZorroSignWidget/Preview Content\"";
+				DEVELOPMENT_TEAM = 48689QGL3Z;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = ZorroSignWidget/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = sample.ZorroSignWidget;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DFBA3264267DB1B300448357 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"ZorroSignWidget/Preview Content\"";
+				DEVELOPMENT_TEAM = 48689QGL3Z;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = ZorroSignWidget/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = sample.ZorroSignWidget;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		DFBA327C267DB1D300448357 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 48689QGL3Z;
+				INFOPLIST_FILE = DashboardWidget/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = sample.ZorroSignWidget.DashboardWidget;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DFBA327D267DB1D300448357 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 48689QGL3Z;
+				INFOPLIST_FILE = DashboardWidget/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = sample.ZorroSignWidget.DashboardWidget;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DFBA324E267DB1B100448357 /* Build configuration list for PBXProject "ZorroSignWidget" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DFBA3260267DB1B300448357 /* Debug */,
+				DFBA3261267DB1B300448357 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DFBA3262267DB1B300448357 /* Build configuration list for PBXNativeTarget "ZorroSignWidget" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DFBA3263267DB1B300448357 /* Debug */,
+				DFBA3264267DB1B300448357 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DFBA327B267DB1D300448357 /* Build configuration list for PBXNativeTarget "DashboardWidgetExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DFBA327C267DB1D300448357 /* Debug */,
+				DFBA327D267DB1D300448357 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DFBA324B267DB1B100448357 /* Project object */;
+}
